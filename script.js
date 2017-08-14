@@ -6,5 +6,9 @@ $( document ).ready(function() {
       $('#gettingValuesExample .hours').html(timer.getTimeValues().hours);
       $('#gettingValuesExample .minutes').html(timer.getTimeValues().minutes);
       $('#gettingValuesExample .seconds').html(timer.getTimeValues().seconds);
-  });   
+  });
+
+  $('#btn').click(function() {
+	  location.reload();
+	});   
 });
